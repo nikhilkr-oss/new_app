@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true"
+    android:layout_height="match_parent"
+    tools:context=".BoardingScreen">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_gravity="top|center_horizontal"
+        android:layout_marginTop="152dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_groupic" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginTop="100dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_marktplac" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/onboard" />
+    <Button
+        android:id="@+id/btn_get_start"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginHorizontal="24dp"
+        android:layout_marginTop="66dp"
+        android:background="@drawable/btn_bg"
+        android:text="Get  Started"
+        android:layout_marginBottom="40dp"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+</LinearLayout>

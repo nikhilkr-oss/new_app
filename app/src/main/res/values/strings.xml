@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="enter_your_mob_no">Enter your mobile number</string>
+    <string name="hello_txt">Hello, Welcome Back to Our Account</string>
+    <string name="otp_txt">Your confirmation code is below - enter it  and we\'ll help you get signed in.</string>
+    <string name="enter_verification">Enter your \nVerification code</string>
+    <string name="verify_txt">We Have sent the code verification to \nyour mobile number</string>
+</resources>
